@@ -41,7 +41,7 @@ python3 manager.py
 
 
 ## 页面效果
-![](https://github.com/NEALWE/NealweNote/blob/master/pic/Create%20Article - Nealwe's NoteBook.png)
+![](https://github.com/NEALWE/NealweNote/blob/master/pic/Create Article - Nealwe's NoteBook.png)
 ![](https://github.com/NEALWE/NealweNote/blob/master/pic/Edit Article - Nealwe's NoteBook.png)
 
 1. 双击可以编辑节点标题
