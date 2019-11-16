@@ -25,10 +25,10 @@
 
 ```bash
 # 克隆项目
-git clone https://github.com/nealwe/xxx/xxx
+https://github.com/NEALWE/NealweNote.git
 
 # 进入项目目录
-cd xxxx
+cd NealweNote/NoteBack
 
 # 启动服务
 python3 manager.py
@@ -41,8 +41,8 @@ python3 manager.py
 
 
 ## 页面效果
-![](https://github.com/NEALWE/AWD_FrameWork/blob/master/AWD.png)
-![](https://github.com/NEALWE/AWD_FrameWork/blob/master/AWD.png)
+![](https://github.com/NEALWE/NealweNote/blob/master/pic/Create%20Article - Nealwe's NoteBook.png)
+![](https://github.com/NEALWE/NealweNote/blob/master/pic/Edit Article - Nealwe's NoteBook.png)
 
 1. 双击可以编辑节点标题
 2. 编辑文章内容时，操作3次自动保存，自动保存不会有提示，以免打扰编辑思路。
