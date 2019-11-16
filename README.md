@@ -25,7 +25,7 @@
 
 ```bash
 # 克隆项目
-https://github.com/NEALWE/NealweNote.git
+git clone https://github.com/NEALWE/NealweNote.git
 
 # 进入项目目录
 cd NealweNote/NoteBack
