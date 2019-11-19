@@ -43,7 +43,7 @@ python3 manager.py
 ## 页面效果
 ![](https://github.com/NEALWE/NealweNote/blob/master/pic/CreateArticle-Nealwe'sNoteBook.png)
 
-![](https://github.com/NEALWE/NealweNote/blob/master/pic/EditArticle-Nealwe'sNoteBook.png)
+![](https://github.com/NEALWE/NealweNote/blob/master/pic/SubmitButton20191119-174929.png)
 
 1. 双击可以编辑节点标题
 2. 编辑文章内容时，操作3次自动保存，自动保存不会有提示，以免打扰编辑思路。
