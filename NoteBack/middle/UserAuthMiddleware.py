@@ -10,28 +10,32 @@ def get_ip(request):
         ip = request.META.get('REMOTE_ADDR')
     return ip
 
+
+def is_login(request):
+    try:
+        if not request.session['is_login']:
+            print("is_not_login")
+            return False
+        else:
+            print("is_login")
+            return True
+    except:
+        return False
+
+
 class AuthMiddleware(MiddlewareMixin):
 
-    def is_login(self, request):
-        try:
-            if not request.session['is_login']:
-                return False
-            else:
-                return True
-        except:
-            return False
 
     def process_request(self, request):
-        need_login = ['/axf/mine/', '/axf/cart/']
-        need_login_for_all = True
+        
+        no_need_login = ['/', '/#/login', '/api/note/login/']
 
-        if request.path in need_login or need_login_for_all:
-            if not self.is_login:
+        if request.path not in no_need_login:
+            if not is_login(request):
                 return HttpResponseRedirect('/#/login')
             else:
                 print(get_ip(request))
                 return None
         else:
             return None
-
 
